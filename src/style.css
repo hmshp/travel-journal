@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.fa-globe {
+  margin-right: 10px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+  padding: 15px;
+  text-align: center;
+  color: #FFF;
+}
+
+.navbar-title {
+  font-size: 20px;
+}
+
+/* end of navbar */
+
+h1, h3, h4, p {
+  margin: 0;
+}
+
+.post-container {
+  margin: 30px 100px 30px 30px;
+  display: flex;
+}
+
+.img {
+  width: 200px;
+  height: 250px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.marker {
+  width: 10px;
+  margin-right: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-location {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.fa-map-marker-alt {
+  color: #F55A5A; /* Why isn't this working? */
+  margin-right: 8px;
+}
+
+.location {
+  margin-right: 8px;
+  color: #2B283A;
+  letter-spacing: 2px;
+}
+
+.content-location span {
+  color: #918E9B;
+  text-decoration: underline;
+}
+
+.title {
+  padding-bottom: 20px;
+}
+
+.date {
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+  font-size: 15px;
+}
+
+.description {
+  line-height: 22px;
+  font-size: 15px;
+}
